@@ -2,331 +2,372 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- This is a Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-    <link rel="stylesheet" href="style.css" />
-	<script src="script.js"> </script>
-    <title>Computers & Accessories</title>
+  <!--  This is a Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"> </script>
+  <title>Computers & Accessories</title>
 </head>
+  <!-- This is a Configured Navbar for template -->
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">E-Product</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#E-ProductSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a
-              >
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">E-Product</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#E-ProductSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="btn btn-md btn-danger ml-4 text-light"><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+              CART</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-3">
+
+    <div id="myresult" class="img-zoom-result myresult-position"></div>
+
+
+    <div class="row">
+
+      <!-- This is a Configured Return button to home page --> 
+      <div class="col-md-12">
+        <nav>
+          <ol class="breadcrumb d-flex align-items-center">
+            <li class="breadcrumb-item">
+              <a href="#">
+                <img class="img-home" src="accueil.jpg" alt="Bouton retour vers page d'accueil" />Home</a>
             </li>
-            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
-                </ul>
-                <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
-                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-              Search
-            </button>
-                </form>
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="btn btn-md btn-danger ml-4 text-light"><i class="fa fa-shopping-cart" aria-hidden="true"></i> CART</a
-              >
-            </li>
-          </ul>
+            <li class="breadcrumb-item"><a href="#">GT SHOP</a></li>
+            <li class="breadcrumb-item"><a href="#">Computers</a></li>
+            <li class="breadcrumb-item active"><a href="#">GT laptop</a></li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+<!-- This is a product image example -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="img-zoom-container">
+          <img id="myimage" class="myimage" src="c94.jpg" width="400" height="400" alt="laptop">
         </div>
       </div>
-    </nav>
 
-    <div class="container mt-5">
-      <div class="row">
-        <div class="col-md-12">
-          <nav>
-            <ol class="breadcrumb d-flex align-items-center">
-              <li class="breadcrumb-item">
-                <a href="#">
-                  <img
-                    class="img-home"
-                    src="accueil.jpg"
-                    alt="Bouton retour vers page d'accueil"
-                  />Home</a
-                >
-              </li>
-              <li class="breadcrumb-item"><a href="#">GT SHOP</a></li>
-                    <li class="breadcrumb-item"><a href="#">Computers</a></li>
-                    <li class="breadcrumb-item active"><a href="#">GT laptop</a></li>
-                    </ol>
-    </nav>
-    </div>
-    </div>
-    </div>
-    <div class="container">
+      <!-- This is a Title product image example -->
+      <div class="col-md-6">
+
+        <div class="row mb-3">
+          <span id="productTitle" class="a-size-large a-text-bold">ASUS Chromebook C223 11.6" HD Chromebook Laptop
+            Celeron N3350
+          </span>
+        </div>
+
+<!-- This is a configured  product Information example -->
         <div class="row">
-            <div class="col-md-6">
-			<div class="img-zoom-container">
-                   <img id="myimage" src="c94.jpg" width="400" height="400" alt="laptop">
-                   <div id="myresult" class="img-zoom-result"></div>
-            </div>
-			<script>
-imageZoom("myimage", "myresult");
-</script>
-                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img class="d-block w-100" src="c51.jpg" alt="First slide" />
-                        </div>
-                        <div class="carousel-item">
-                            <img class="d-block w-100" src="c52.png" alt="Second slide" />
-                        </div>
-						<div class="carousel-item">
-                            <img class="d-block w-100" src="c132.jpg" alt="Third slide" />
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="row">
-                    <h1>ASUS Laptop L210</h1>
-                </div>
-                <div class="row">
-                    <h6></h6>
-                    <h6></h6>
-                </div>
-				<div class="row">
-                    <h6></h6>
-                    <h6></h6>
-                </div>
-				<div class="row">
-                    <div>
-                        <h5>Price (HT):</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5>$105.99</h5>
-                    </div>
-                </div>
-				<div class="row">
-                    <div>
-                        <h5>Price (TTC):</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5>$120.99</h5>
-                    </div>
-                </div>
-				<div class="row">
-                    <div>
-                        <h5>Availability:</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5>Yes</h5>
-                    </div>
-                </div>
-				<div class="row">
-                    <div>
-                        <h5>Dimensions:</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5>22.05x18.31x15.46</h5>
-                    </div>
-                </div>
-				<div class="row">
-                    <div>
-                        <h5>About this item :</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5> ASUS Laptop L210 </h5>
-                    </div>
-                </div>
-				<div class="row">
-                    <div>
-                        <h5>Bank Offer :</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5> 20% Credit Cards</h5>
-                    </div>
-                </div>
-                <div class="row">
-                    <h3 class="text-info">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    </h3>
-                    <h5>Delivery by31 Jul, Saturday
-                    </h5>
-                </div>
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Price(HT):</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">105.99 Dz</span>
+          </div>
+        </div>
 
-                <div class="row">
-                    <div>
-                        <h5>Size:</h5>
-                    </div>
-                    <div>
-                        <div class="dropdown show">
-                            <a class="btn btn-secondary btn-sm dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Select sizes
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Price (TTC):</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">125.99 Dz</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Category:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">ASUS</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Availability:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">Yes</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Dimensions:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">22.05x18.31x15.46</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Description:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">ASUS Laptop L210</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Bank Offer:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size"> 20% Credit Cards</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Expiration date:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size"> 20% Credit Cards</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Display Size:</span>
+          </div>
+          <div class="col-md-8">
+            <span class="a-size">large</span>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">Colors:</span>
+          </div>
+          <div class="col-md-8">
+            <div class="btns-color">
+              <div class="radio-color">
+                <input type="radio" style="display: none;" id="r1">
+                <label class="btn-color" style="background-color: blue;" for="r1"></label>
+              </div>
+              <div class="radio-color">
+                <input type="radio" style="display: none;" id="r2">
+                <label class="btn-color" style="background-color: rgb(255, 251, 0);" for="r2"></label>
+              </div>
+              <div class="radio-color">
+                <input type="radio" style="display: none;" id="r3">
+                <label class="btn-color" style="background-color: rgb(255, 0, 0);" for="r3"></label>
+              </div>
+              <div class="radio-color">
+                <input type="radio" style="display: none;" id="r4">
+                <label class="btn-color" style="background-color: rgb(255, 0, 212);" for="r4"></label>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <span class="a-size-base a-text-bold">About this item:</span>
+          </div>
+        </div>
+
+        <ul style="margin-bottom: 0rem;">
+          <li><small> Generation Intel Core i5-9300H Processor</small></Li>
+          <li><small>15.6 inches Full HD Widescreen I LED-backlit</small></Li>
+          <li><small>8GB DDR4 2666MHz Memory; 256GB PCI NVM</small></Li>
+          <li><small>AN: 10/100/1000 Gigab Ethernet LAN Wireless</small></Li>
+        </ul>
+
+        <a href="#"><small>See more product details</small> </a>
+
+
+        <div class="row mt-4">
+          <div class="col-md-4">
+            <div class="css_quantity input-group" contenteditable="false">
+              <div class="input-group-prepend">
+                <a class="btn btn-secondary js_add_cart_json" aria-label="Remove one" title="Remove one" href="#">
+                  <i class="fa fa-minus"></i>
                 </a>
-                            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                                <a class="dropdown-item" href="#">small</a>
-                                <a class="dropdown-item" href="#">meduam </a>
-                                <a class="dropdown-item" href="#">large</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div>
-                        <h5>Colors:</h5>
-                    </div>
-                    <div class="col-md-6">
-                        <a href="#" class="badge badge-danger text-light"> red</a>
-                        <a href="#" class="badge badge-primary text-light"> blue </a>
-                        <a href="#" class="badge badge-warning text-light"> yellow</a>
-                        <a href="#" class="badge badge-success text-light"> green</a>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div>
-                        <h5>Description :</h5>
-                    </div>
-                    <div class="col-md-6">
-					     <h5><a href="#">Read more...</a> </h5>
-                    </div>
-                </div>
-
-                <div class="row mt-4">
-                    <div class="col-md-4">
-                        <div class="css_quantity input-group" contenteditable="false">
-                            <div class="input-group-prepend">
-                                <a class="btn btn-secondary js_add_cart_json" aria-label="Remove one" title="Remove one" href="#">
-                                    <i class="fa fa-minus"></i>
-                                </a>
-                            </div>
-                            <input type="text" class="form-control quantity text-center" data-min="1" name="add_qty" value="1" title="" />
-                            <div class="input-group-append">
-                                <a class="btn btn-secondary float_left js_add_cart_json" aria-label="Add one" title="Add one" href="#">
-                                    <i class="fa fa-plus"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a role="button" class="btn btn-light d-block d-sm-inline-block" href="#">
-						<i class="fa fa-shopping-cart"></i> Ajouter au panier</a
-              >
+              </div>
+              <input type="text" class="form-control quantity text-center" data-min="1" name="add_qty" value="1"
+                title="" />
+              <div class="input-group-append">
+                <a class="btn btn-secondary float_left js_add_cart_json" aria-label="Add one" title="Add one" href="#">
+                  <i class="fa fa-plus"></i>
+                </a>
+              </div>
             </div>
-			
           </div>
-                    
-          <div class="row mt-4">
-            <div class="col-md-3"></div>
+<!-- This is a configured button  Add to Cart -->
+          <div>
+            <a role="button" class="btn btn-light d-block d-sm-inline-block" href="#">
+              <i class="fa fa-shopping-cart"></i> Ajouter au panier</a>
+          </div>
+
+        </div>
+
+        <div class="row mt-4">
+          <div class="col-md-3"></div>
+        </div>
+      </div>
+    </div>
+    <!-- This is a configured carousel slide for Product  -->
+
+    <div class="row">
+      <div class="col-md-6 offset-3">
+        <!-- start carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="c51.jpg" alt="First slide" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="c52.png" alt="Second slide" />
+            </div>
+            <div class="carousel-item">
+              <img class="d-block w-100" src="c132.jpg" alt="Third slide" />
+            </div>
+          </div>
+        </div>
+        <!-- End craousel -->
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row mt-5">
+      <h2>Similar Products</h2>
+    </div>
+  </div>
+        <!-- This is a configured Similar Products -->
+    <div class="row mt-5">
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="c61.jpg" />
+          <div class="card-title">
+            <h4>GYM Tops</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
+            <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
+            <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
+              Cart</a>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="c94.jpg" />
+          <div class="card-title">
+            <h4>GYM Tops</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
+            <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
+            <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
+              Cart</a>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="c132.jpg" />
+          <div class="card-title">
+            <h4>GYM Tops</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
+            <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
+            <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
+              Cart</a>
+            <br /><br />
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="card">
+          <img class="card-img-top img-fluid" src="c172.jpg" />
+          <div class="card-title">
+            <h4>GYM Tops</h4>
+          </div>
+          <div class="card-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
+            <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
+            <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
+              Cart</a>
+            <br /><br />
           </div>
         </div>
       </div>
     </div>
-           
-    <div class="container">
-      <div class="row mt-5">
-        <h2>Similar Products</h2>
-      </div>
+  </div>
 
-      <div class="row mt-5">
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="c61.jpg" />
-            <div class="card-title">
-              <h4>GYM Tops</h4>
-            </div>
-            <div class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
-              <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
-                        <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
-                Cart</a
-              >
-              <br /><br />
-            </div>
-          </div>
-        </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+ 
+  <!-- This is a configured Image Zoom and position -->
+  <script>
+    
+    imageZoom("myimage", "myresult");
 
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="c94.jpg" />
-            <div class="card-title">
-              <h4>GYM Tops</h4>
-            </div>
-            <div class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
-              <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
-                        <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
-                Cart</a
-              >
-              <br /><br />
-            </div>
-          </div>
-        </div>
+    $(".img-zoom-container").mousemove(function(){
+      $(".myresult-position").addClass('myresult-position-show');
+    });
 
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="c132.jpg" />
-            <div class="card-title">
-              <h4>GYM Tops</h4>
-            </div>
-            <div class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
-              <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
-                        <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
-                Cart</a
-              >
-              <br /><br />
-            </div>
-          </div>
-        </div>
+    $(".img-zoom-container").mouseleave(function(){
+      $(".myresult-position").removeClass('myresult-position-show');
+    })
 
-        <div class="col-md-3">
-          <div class="card">
-            <img class="card-img-top img-fluid" src="c172.jpg" />
-            <div class="card-title">
-              <h4>GYM Tops</h4>
-            </div>
-            <div class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Repudiandae fugiat et voluptate sunt officia vero molestias.<br /><br />
-              <a class="btn btn-success text-light"> Buy Now</a> &nbsp;
-                        <a class="btn btn-light"><i class="fa fa-cart-plus" aria-hidden="true"></i> Add To
-                Cart</a
-              >
-              <br /><br />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  </script>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+</body>
+
 </html>
